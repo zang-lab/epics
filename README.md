@@ -7,7 +7,7 @@ Each of the experiments associated with EPICS is provided in respective branches
 
 ## Data
 
-Raw 3D-EMISH data was obtained from Trzaskoma et.al.'s GitHub (\url{https://github.com/3DEMISH/3D-EMISH}).  Raw 3D-SIM images were obtained from Cremer et.al.'s 2020 paper.   
+Raw 3D-EMISH data was obtained from Trzaskoma et.al.'s GitHub (https://github.com/3DEMISH/3D-EMISH).  Raw 3D-SIM images were obtained from Cremer et.al.'s 2020 paper.   
 
 ## System Information
 
