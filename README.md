@@ -3,11 +3,11 @@ Extracting Physical-Characteristics from Images of Chromatin Structures (EPICS) 
 
 ## Branch Organization
 
-The .py files in each branch collect the features from the raw data.  The .r files build the models for classifying open and closed chromatin domains (CDs).   
+The ultima_cds_open_closed.py file collects the shape and intensity metrics for each chromatin domains (CDs).   It uses custom functions from md_tif.py.  3d_emish_cds_open_closed_lr.r builds the models to classify the open and closed CDs from one another.  It requires the data from 3d_emish_data.zip.
 
 ## Data
 
-Raw 3D-EMISH data was obtained from Trzaskoma et.al.'s GitHub (https://github.com/3DEMISH/3D-EMISH). 
+Raw 3D-EMISH data was obtained from Trzaskoma et.al.'s GitHub (https://github.com/3DEMISH/3D-EMISH). Our intensity and shape metrics are provided in 3d_emish_data.zip. 
 
 ## System Information
 
