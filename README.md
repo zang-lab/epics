@@ -15,103 +15,103 @@ The computation was performed on a Ubuntu 18.04.5 system with 64 GB of RAM and a
 
 Below is a list of the installed versions of the Python libraries (as of Janurary 2021):
 
-apt-clone==0.2.1
-apturl==0.5.2
-asn1crypto==0.24.0
-Brlapi==0.6.6
-certifi==2018.1.18
-chardet==3.0.4
-command-not-found==0.3
-cryptography==2.1.4
-cupshelpers==1.0
-cycler==0.10.0
-cykhash==1.0.2
-Cython==0.29.24
-decorator==4.4.2
-defer==1.0.6
-dell-recovery==0.0.0
-distro-info===0.18ubuntu0.18.04.1
-hdbscan==0.8.27
-httplib2==0.9.2
-idna==2.6
-imagecodecs==2020.5.30
-imageio==2.9.0
-imglyb==1.0.0
-jgo==1.0.1
-joblib==1.0.1
-JPype1==1.2.1
-keyring==10.6.0
-keyrings.alt==3.0
-kiwisolver==1.3.1
-kneed==0.7.0
-language-selector==0.1
-launchpadlib==1.10.6
-lazr.restfulclient==0.13.5
-lazr.uri==1.0.3
-libtiff==0.4.2
-louis==3.5.0
-macaroonbakery==1.1.3
-MACS3==3.0.0a6
-Mako==1.0.7
-MarkupSafe==1.0
-matplotlib==3.3.4
-netifaces==0.10.4
-networkx==2.5.1
-numpy==1.19.5
-oauth==1.0.1
-olefile==0.45.1
-PAM==0.4.2
-pandas==1.1.5
-pexpect==4.2.1
-Pillow==8.2.0
-progressbar==2.3
-protobuf==3.0.0
-psutil==5.8.0
-pycairo==1.16.2
-pycrypto==2.6.1
-pycups==1.9.73
-pygobject==3.26.1
-PyICU==1.9.8
-pyimagej==1.0.0
-pymacaroons==0.13.0
-PyNaCl==1.1.2
-pyparsing==2.4.7
-pyRFC3339==1.0
-python-apt==1.6.5+ubuntu0.5
-python-dateutil==2.8.1
-python-debian==0.1.32
-pytz==2021.1
-PyWavelets==1.1.1
-pyxdg==0.25
-PyYAML==3.12
-reportlab==3.4.0
-requests==2.18.4
-requests-unixsocket==0.1.5
-ripleyk==0.0.3
-scikit-image==0.15.0
-scikit-learn==0.24.2
-scipy==1.5.4
-scour==0.36
-screen-resolution-extra==0.0.0
-scyjava==1.1.0
-SecretStorage==2.3.1
-SELMA==1.0
-simplejson==3.13.2
-six==1.16.0
-system-service==0.3
-systemd-python==234
-threadpoolctl==2.2.0
-tifffile==2020.9.3
-typing-extensions==3.10.0.0
-ubuntu-drivers-common==0.0.0
-ufw==0.36
-unattended-upgrades==0.1
-urllib3==1.22
-usb-creator==0.3.3
-wadllib==1.3.2
-xarray==0.16.2
-xkit==0.0.0
-zope.interface==4.3.2
+apt-clone==0.2.1<br />
+apturl==0.5.2<br />
+asn1crypto==0.24.0<br />
+Brlapi==0.6.6<br />
+certifi==2018.1.18<br />
+chardet==3.0.4<br />
+command-not-found==0.3<br />
+cryptography==2.1.4<br />
+cupshelpers==1.0<br />
+cycler==0.10.0<br />
+cykhash==1.0.2<br />
+Cython==0.29.24<br />
+decorator==4.4.2<br />
+defer==1.0.6<br />
+dell-recovery==0.0.0<br />
+distro-info===0.18ubuntu0.18.04.1<br />
+hdbscan==0.8.27<br />
+httplib2==0.9.2<br />
+idna==2.6<br />
+imagecodecs==2020.5.30<br />
+imageio==2.9.0<br />
+imglyb==1.0.0<br />
+jgo==1.0.1<br />
+joblib==1.0.1<br />
+JPype1==1.2.1<br />
+keyring==10.6.0<br />
+keyrings.alt==3.0<br />
+kiwisolver==1.3.1<br />
+kneed==0.7.0<br />
+language-selector==0.1<br />
+launchpadlib==1.10.6<br />
+lazr.restfulclient==0.13.5<br />
+lazr.uri==1.0.3<br />
+libtiff==0.4.2<br />
+louis==3.5.0<br />
+macaroonbakery==1.1.3<br />
+MACS3==3.0.0a6<br />
+Mako==1.0.7<br />
+MarkupSafe==1.0<br />
+matplotlib==3.3.4<br />
+netifaces==0.10.4<br />
+networkx==2.5.1<br />
+numpy==1.19.5<br />
+oauth==1.0.1<br />
+olefile==0.45.1<br />
+PAM==0.4.2<br />
+pandas==1.1.5<br />
+pexpect==4.2.1<br />
+Pillow==8.2.0<br />
+progressbar==2.3<br />
+protobuf==3.0.0<br />
+psutil==5.8.0<br />
+pycairo==1.16.2<br />
+pycrypto==2.6.1<br />
+pycups==1.9.73<br />
+pygobject==3.26.1<br />
+PyICU==1.9.8<br />
+pyimagej==1.0.0<br />
+pymacaroons==0.13.0<br />
+PyNaCl==1.1.2<br />
+pyparsing==2.4.7<br />
+pyRFC3339==1.0<br />
+python-apt==1.6.5+ubuntu0.5<br />
+python-dateutil==2.8.1<br />
+python-debian==0.1.32<br />
+pytz==2021.1<br />
+PyWavelets==1.1.1<br />
+pyxdg==0.25<br />
+PyYAML==3.12<br />
+reportlab==3.4.0<br />
+requests==2.18.4<br />
+requests-unixsocket==0.1.5<br />
+ripleyk==0.0.3<br />
+scikit-image==0.15.0<br />
+scikit-learn==0.24.2<br />
+scipy==1.5.4<br />
+scour==0.36<br />
+screen-resolution-extra==0.0.0<br />
+scyjava==1.1.0<br />
+SecretStorage==2.3.1<br />
+SELMA==1.0<br />
+simplejson==3.13.2<br />
+six==1.16.0<br />
+system-service==0.3<br />
+systemd-python==234<br />
+threadpoolctl==2.2.0<br />
+tifffile==2020.9.3<br />
+typing-extensions==3.10.0.0<br />
+ubuntu-drivers-common==0.0.0<br />
+ufw==0.36<br />
+unattended-upgrades==0.1<br />
+urllib3==1.22<br />
+usb-creator==0.3.3<br />
+wadllib==1.3.2<br />
+xarray==0.16.2<br />
+xkit==0.0.0<br />
+zope.interface==4.3.2<br />
 
 Here is the system info associated with the R sessions:
 
