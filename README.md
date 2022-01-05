@@ -11,6 +11,8 @@ Raw 3D-EMISH data was obtained from Trzaskoma et.al.'s GitHub (https://github.co
 
 ## System Information
 
-The computation was performed on a Ubuntu 18.04.5 system with 64 GB of RAM and an Intel® Xeon(R) W-2245 CPU @ 3.90GHz with 8 cores and 16 threads.  Below is a list of the installed versions of the Python libraries (as of Janurary 2021):
+The computation was performed on a Ubuntu 18.04.5 system with 64 GB of RAM and an Intel® Xeon(R) W-2245 CPU @ 3.90GHz with 8 cores and 16 threads.  Python and R were used to implement EPICS and many visualizations.  ImageJ was used to create some of the 3D .gifs.
+
+Below is a list of the installed versions of the Python libraries (as of Janurary 2021):
 
 
