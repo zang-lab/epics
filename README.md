@@ -1,4 +1,4 @@
-# EPICS
+# EPICS and 3D-EMISH
 Extracting Physical-Characteristics from Images of Chromatin Structures (EPICS) is a machine-learning based computational method for processing high-resolution chromatin 3D image data. 
 
 ## Branch Organization
