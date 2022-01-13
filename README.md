@@ -5,6 +5,10 @@ Extracting Physical-Characteristics from Images of Chromatin Structures (EPICS) 
 
 The 3d_sim.py file collects the shape and intensity metrics for each chromatin domains (CDs). It uses custom functions from md_tif.py. tri_open_closed_lr.r builds the models to classify the open and closed CDs from one another. It requires the data from 3d_sim_data.zip.
 
+## 3D .gif Files
+
+3D .gif files of some of Figure 1's panels are provided in the main branch under the folder '3d_gifs'.  
+
 ## Data
 
 Raw 3D-SIM images were obtained from Cremer et.al.'s 2020 paper (https://datadryad.org/stash/dataset/doi:10.5061/dryad.vt4b8gtqb).  Our intensity and shape metrics are provided in 3d_sim_data.zip. 
