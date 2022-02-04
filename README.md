@@ -1,9 +1,9 @@
-# EPICS and 3D-SIM
-Extracting Physical-Characteristics from Images of Chromatin Structures (EPICS) is a machine-learning based computational method for processing high-resolution chromatin 3D image data. This branch applies EPICS to 3D-SIM data.  
+# EPICS
+Extracting Physical-Characteristics from Images of Chromatin Structures (EPICS) is a machine-learning based computational method for processing high-resolution chromatin 3D image data. 
 
-## Branch Organization
+## Repository Organization
 
-The 3d_sim.py file collects the shape and intensity metrics for each chromatin domains (CDs). It uses custom functions from md_tif.py. tri_open_closed_lr.r builds the models to classify the open and closed CDs from one another. It requires the data from 3d_sim_data.zip.
+Each of the experiments associated with EPICS is provided in respective branches.  Specifically, experiments were done on 3D-EMISH and 3D-SIM data.  Those experiments (code, associated data, and output) are all provided in their respective branches.  The .py files in each branch collect the features from the raw data.  The .r files build the models for classifying open and closed chromatin domains (CDs).   
 
 ## 3D .gif Files
 
@@ -11,7 +11,7 @@ The 3d_sim.py file collects the shape and intensity metrics for each chromatin d
 
 ## Data
 
-Raw 3D-SIM images were obtained from Cremer et.al.'s 2020 paper (https://datadryad.org/stash/dataset/doi:10.5061/dryad.vt4b8gtqb).  Our intensity and shape metrics are provided in 3d_sim_data.zip. 
+Raw 3D-EMISH data was obtained from Trzaskoma et.al.'s GitHub (https://github.com/3DEMISH/3D-EMISH).  Raw 3D-SIM images were obtained from Cremer et.al.'s 2020 paper (https://datadryad.org/stash/dataset/doi:10.5061/dryad.vt4b8gtqb).   
 
 ## System Information
 
