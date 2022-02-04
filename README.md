@@ -3,7 +3,31 @@ Extracting Physical-Characteristics from Images of Chromatin Structures (EPICS) 
 
 ## Repository Organization
 
-Each of the experiments associated with EPICS is provided in respective branches.  Specifically, experiments were done on 3D-EMISH and 3D-SIM data.  Those experiments (code, associated data, and output) are all provided in their respective branches.  The .py files in each branch collect the features from the raw data.  The .r files build the models for classifying open and closed chromatin domains (CDs).   
+Each of the experiments associated with EPICS is provided in respective branches.  Specifically, experiments were done on 3D-EMISH and 3D-SIM data.  Those experiments (code, associated data, and output) are all provided in their respective branches.  The .py files in each branch collect the features from the raw data.  The .r files build the models for classifying open and closed chromatin domains (CDs).   Each branch is also given it's own .zip file in the main branch with the same files.  Each .zip is explained herein. 
+
+### epics-3D-EMISH.zip
+
+The ultima_cds_open_closed.py file collects the shape and intensity metrics for each chromatin domains (CDs). It uses custom functions from md_tif.py. 3d_emish_cds_open_closed_lr.r builds the models to classify the open and closed CDs from one another. It requires the data from 3d_emish_data.zip.
+
+Raw 3D-EMISH data was obtained from Trzaskoma et.al.'s GitHub (https://github.com/3DEMISH/3D-EMISH). Our intensity and shape metrics are provided in 3d_emish_data.zip.
+
+Thus, the steps to run the code are:
+
+0. Ensure that your files are in useful locations.  Define these locations in the subsquent files. 
+1. Run ultima_cds_open_closed.py using Python. 
+2. Run 3d_emish_cds_open_closed_lr.r using R.
+
+### epics-3D-SIM.zip
+
+The 3d_sim.py file collects the shape and intensity metrics for each chromatin domains (CDs). It uses custom functions from md_tif.py. tri_open_closed_lr.r builds the models to classify the open and closed CDs from one another. It requires the data from 3d_sim_data.zip.
+
+Raw 3D-SIM images were obtained from Cremer et.al.'s 2020 paper (https://datadryad.org/stash/dataset/doi:10.5061/dryad.vt4b8gtqb). Our intensity and shape metrics are provided in 3d_sim_data.zip.
+
+Thus, the steps to run the code are:
+
+0. Ensure that your files are in useful locations.  Define these locations in the subsquent files. 
+1. Run 3d_sim.py using Python. 
+2. Run tri_open_closed_lr.r using R.
 
 ## 3D .gif Files
 
