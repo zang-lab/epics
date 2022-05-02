@@ -5,6 +5,10 @@ Extracting Physical-Characteristics from Images of Chromatin Structures (EPICS) 
 
 Each of the experiments associated with EPICS is provided in respective branches.  Specifically, experiments were done on 3D-EMISH and 3D-SIM data.  Those experiments (code, associated data, and output) are all provided in their respective branches.  The .py files in each branch collect the features from the raw data.  The .r files build the models for classifying open and closed chromatin domains (CDs).   Each branch is also given it's own .zip file in the main branch with the same files.  Each .zip is explained herein. 
 
+### EPICS_guide.pdf
+
+A guide and overview of EPICS applied to 3D-EMISH and 3D-SIM.  EPICs is detailed with step-by-step examples for 3D-EMISH and 3D-SIM.  
+
 ### epics-3D-EMISH.zip
 
 The ultima_cds_open_closed.py file collects the shape and intensity metrics for each chromatin domains (CDs). It uses custom functions from md_tif.py. 3d_emish_cds_open_closed_lr.r builds the models to classify the open and closed CDs from one another. It requires the data from 3d_emish_data.zip.
