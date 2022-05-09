@@ -3,7 +3,11 @@ Extracting Physical-Characteristics from Images of Chromatin Structures (EPICS) 
 
 ## Repository Organization
 
-Each of the experiments associated with EPICS is provided in respective branches.  Specifically, experiments were done on 3D-EMISH and 3D-SIM data.  Those experiments (code, associated data, and output) are all provided in their respective branches.  The .py files in each branch collect the features from the raw data.  The .r files build the models for classifying open and closed chromatin domains (CDs).   Each branch is also given it's own .zip file in the main branch with the same files.  Each .zip is explained herein. 
+Each of the experiments associated with EPICS is provided in respective branches.  Specifically, experiments were done on 3D-EMISH and 3D-SIM data.  Those experiments (code, associated data, and output) are all provided in their respective branches.  The .py files in each branch collect the features from the raw data.  The .r files build the models for classifying open and closed chromatin domains (CDs).   Each branch is also given it's own .zip file in the main branch with the same files.  Each .zip is explained herein.
+
+### EPICS_guide.pdf
+
+A guide and overview of EPICS applied to 3D-EMISH and 3D-SIM.  EPICs is detailed with step-by-step examples for 3D-EMISH and 3D-SIM.  
 
 ### EPICS_guide.pdf
 
